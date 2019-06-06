@@ -1,6 +1,6 @@
 public class JframeLauncher extends FrameDrawer {
-            public static void main(String[] args){
-                JframeLauncher panel = new JframeLauncher();
-                panel.drawJframe();
-            }
+    public static void main(String[] args) {
+        FrameDrawer panel = new FrameDrawer();
+        panel.drawJframe();
+    }
 }
